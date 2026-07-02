@@ -10,7 +10,16 @@ export const onRequest: PagesFunction = async (context) => {
   const start = performance.now();
   const url = new URL(request.url);
 
-  const response = await context.next();
+  let response: Response;
+  try {
+    response = await context.next();
+  } catch (err) {
+    console.error('[error]', err);
+    return new Response(JSON.stringify({ error: 'Internal Server Error' }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
   const duration = performance.now() - start;
 
   // Add Server-Timing header
