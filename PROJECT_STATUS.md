@@ -1,5 +1,13 @@
 # today-little-log — PROJECT STATUS
 
+> **ARCHIVED 2026-07-02 — Merged into [significanthobbies](../significanthobbies).**
+>
+> The daily ritual (habits, journal, AM/PM prompts) was merged into
+> significanthobbies as the "Daily" dimension of a two-dimension life planner.
+> See `significanthobbies/docs/MERGE_PLAN.md` for the full merge plan and
+> `significanthobbies/src/app/daily/` for the merged route. This repo is no
+> longer actively developed. No data migration was performed (single user).
+
 Last updated: 2026-07-02
 
 ## Why/What
