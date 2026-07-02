@@ -1,6 +1,6 @@
 # today-little-log — PROJECT STATUS
 
-Last updated: 2026-06-28
+Last updated: 2026-07-02
 
 ## Why/What
 
@@ -61,6 +61,7 @@ PWA service worker ──► offline shell + update prompts
 
 | Phase | Milestone |
 |-------|-----------|
+| 2026-07-02 | Added global try/catch error handler to Pages Functions API middleware (`functions/api/_middleware.ts`) — wraps `context.next()`, returns 500 JSON on uncaught errors. |
 | Platform foundation | Cloudflare Pages + Functions, Turso/Drizzle, better-auth Google OAuth, PWA install/update |
 | Core three surfaces | Daily scoreboard, habits, journal with bottom nav and sidebar routing |
 | Rituals & focus | AM/PM rituals, focus timer (guest-capable) |
@@ -111,6 +112,7 @@ PWA service worker ──► offline shell + update prompts
 
 ### Quality and UX hardening
 - Global error boundary for runtime failures.
+- API middleware global try/catch (`functions/api/_middleware.ts`) — wraps `context.next()`, returns 500 JSON on uncaught errors.
 - Delete confirmations on Habits and Journal destructive actions.
 - Stale mobile FAB removed.
 - Vercel deployment references removed from codebase/docs alignment.
