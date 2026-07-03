@@ -1,5 +1,10 @@
 # agents.md — today-little-log
 
+> **ARCHIVED 2026-07-02 — Merged into [significanthobbies](../significanthobbies).**
+> This repo is no longer actively developed. The daily ritual (habits,
+> journal, AM/PM prompts) lives in `significanthobbies/src/app/daily/`.
+> See `significanthobbies/docs/MERGE_PLAN.md` for details.
+
 ## Shared Fleet Standard
 
 Also read and follow the shared fleet-level agent standard at `../AGENTS.md`. Treat this repository as owned product code: protect production stability, keep changes scoped, verify work, and record durable follow-up tasks when something remains incomplete or blocked.

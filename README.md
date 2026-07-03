@@ -1,5 +1,10 @@
 # Today Little Log
 
+> **ARCHIVED 2026-07-02 — Merged into [significanthobbies](../significanthobbies).**
+> This repo is no longer actively developed. The daily ritual (habits,
+> journal, AM/PM prompts) lives in `significanthobbies/src/app/daily/`.
+> See `significanthobbies/docs/MERGE_PLAN.md` for details.
+
 A personal life PWA for daily scoring, journaling, rituals, habits, tasks, and
 reflection. The app is intentionally quiet: it helps capture the day, maintain a
 no-zero-day scoreboard, and keep personal routines visible without becoming a
